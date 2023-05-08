@@ -9,4 +9,4 @@ console.log(sumOfElements);
 console.log(sumOfReverseValues);
 console.log(concat);
 }
-aggregateElements([1, 2, 3] )
+aggregateElements([1, 2, 3])
