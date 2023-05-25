@@ -7,9 +7,9 @@ function addItem() {
     let deletedElement = document.createElement('a');
     deletedElement.href = '#';
     deletedElement.textContent = '[Delete]';
+    liElement.appendChild(deletedElement);
     deletedElement.addEventListener('click', (el) => {
         el.currentTarget.parentElement.remove();
     })
-    liElement.appendChild(deletedElement);
     listedElements.appendChild(liElement);
 }
