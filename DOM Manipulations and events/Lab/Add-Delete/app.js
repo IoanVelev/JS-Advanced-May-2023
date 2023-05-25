@@ -10,6 +10,6 @@ function addItem() {
     deletedElement.addEventListener('click', (el) => {
         el.currentTarget.parentElement.remove();
     })
-    listedElements.appendChild(liElement);
     liElement.appendChild(deletedElement);
+    listedElements.appendChild(liElement);
 }
