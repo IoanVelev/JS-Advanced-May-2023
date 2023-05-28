@@ -12,7 +12,7 @@ function lockedProfile() {
                 hiddenInfo.style.display = 'block';
             } else {
                 event.target.textContent = 'Show more';
-                hiddenInfo.style.display = 'none'
+                hiddenInfo.style.display = 'none';
             }
         }
     }
