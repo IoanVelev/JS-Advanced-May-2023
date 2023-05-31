@@ -2,7 +2,6 @@ function calculator() {
    let input1;
    let input2;
    let result;
-   debugger;
    function init(selector1, selector2, resultSelector) {
     input1 = document.querySelector(selector1);
     input2 = document.querySelector(selector2);
