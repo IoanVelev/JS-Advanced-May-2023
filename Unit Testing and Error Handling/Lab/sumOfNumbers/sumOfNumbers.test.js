@@ -11,7 +11,6 @@ describe('Sum of numbers', () => {
         expect(sumNums.sum(arr)).to.equal(1)
     })
     it('should return NaN when array input isNaN', () => {
-        
         const arr = ['hello'];
         expect(isNaN(sumNums.sum(arr))).to.equal(true)
     })
