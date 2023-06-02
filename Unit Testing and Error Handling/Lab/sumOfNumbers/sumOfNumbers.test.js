@@ -1,17 +1,17 @@
-const { expect } = require('chai');
-const sumNums = require('./sumOfNumbers');
-describe('Sum of numbers', () => {
-    it('should return sum numbers when array length is more than or equal to 2', () => {
-        const arr = [1,2,3,4,5];
-        expect(sumNums.sum(arr)).to.equal(15)
+const { expect } = require('chai')
+const sum = require('./sumOfNumbers')
+
+describe('Testing Summing Function', () => {
+    it('return NaN if one element of array is not a number', () => {
+        expect(isNaN(sum([1, 'a']))).to.equal(true)
+    })
+    it('calculates 1 element array', () => {
+        expect(sum([1])).to.equal(1)
+    })
+    it('calculates 2 element array', () => {
+        expect(sum([1, 1])).to.equal(2)
+    })
+    it('Should throw error when input is not array', () => {
+        expect(() => sum(1)).to.throw()
     });
-    
-    it('should return sum when array length is equal to 1', () => {
-        const arr = [1];
-        expect(sumNums.sum(arr)).to.equal(1)
-    })
-    it('should return NaN when array input isNaN', () => {
-        const arr = ['hello'];
-        expect(isNaN(sumNums.sum(arr))).to.equal(true)
-    })
 })
