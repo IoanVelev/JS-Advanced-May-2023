@@ -5,4 +5,7 @@ In the "JS Advanced" course, you will get a deep knowledge of the JavaScript lan
 
 Certificate: 
 
+![image](https://github.com/IoanVelev/JS-Advanced-May-2023/assets/131281353/6dcce282-f381-4a65-97c5-ed60f86c9765)
+![image](https://github.com/IoanVelev/JS-Advanced-May-2023/assets/131281353/2b30da1a-0615-4ab9-b44f-84144e7ed4ad)
+
 
