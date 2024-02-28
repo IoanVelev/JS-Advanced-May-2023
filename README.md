@@ -24,7 +24,9 @@ MAIN TOPICS AND ACQUIRED SKILLS:
 
 Certificate: 
 
-![image](https://github.com/IoanVelev/JS-Advanced-May-2023/assets/131281353/6dcce282-f381-4a65-97c5-ed60f86c9765)
-![image](https://github.com/IoanVelev/JS-Advanced-May-2023/assets/131281353/2b30da1a-0615-4ab9-b44f-84144e7ed4ad)
+![image](https://github.com/IoanVelev/JS-Advanced-May-2023/assets/131281353/e7ae9f56-5681-4eea-964a-db8578ce3a87)
+
+![image](https://github.com/IoanVelev/JS-Advanced-May-2023/assets/131281353/d58c1566-3ca1-4034-a6da-1ea06e54d08b)
+
 
 
